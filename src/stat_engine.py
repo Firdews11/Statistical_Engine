@@ -28,7 +28,7 @@ class StatEngine:
         max_count = max(freq.values())
         
         if max_count == 1:
-            return "No mode (all values are unique)"
+            return "No mode meaning all values are unique."
         
         return [k for k, v in freq.items() if v == max_count]
     
